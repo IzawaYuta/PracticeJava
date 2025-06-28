@@ -22,11 +22,21 @@ public class Calculation {
         // System.out.println(a / b); //割り算
         // System.out.println(a % b); //余り
 
+        //forを使った計算
         int sum = 0;
 
         for (int i = 1; i <= 10; i++) {
-            sum += i; // sumにiを加算
+            sum += i; 
         }
-        System.out.println("1から10までの合計: " + sum);
+        // System.out.println("1から10までの合計: " + sum);
+
+        //if文を使った計算
+        int num = -2;
+
+        if (num > 0) {
+            System.out.println(num + "は正の数です");
+        } else {
+            System.out.println(num + "は負の数です");
+        }
     }
 }
