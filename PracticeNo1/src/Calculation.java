@@ -34,9 +34,9 @@ public class Calculation {
         int num = 2;
 
         if (num > 0) {
-            System.out.println(num + "は正の数です");
+            // System.out.println(num + "は正の数です");
         } else {
-            System.out.println(num + "は負の数です");
+            // System.out.println(num + "は負の数です");
         }
     }
 }
