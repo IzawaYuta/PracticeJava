@@ -37,5 +37,13 @@ public class ifPractice {
                 System.out.println("赤点");
             }
         }
+
+        //論理演算子
+        int number = 30;
+        if (number >= 0 && number <= 100) {
+            System.out.println("範囲内です");
+        } else {
+            System.out.println("範囲外です");
+        }
     }
 }
