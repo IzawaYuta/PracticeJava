@@ -9,7 +9,7 @@ public class forPrctice {
 
         //デクリメント
         int value = 5;
-        for(value = 5; value >= 0; value--) {
+        for(value = 5; value > 0; value--) {
             System.out.println(value);
         }
     }
