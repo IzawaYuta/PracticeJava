@@ -19,11 +19,23 @@ public class ifPractice {
         }
 
         //赤点の判定
-        int score = 30;
-        if (score >= 30) {
+        int score1 = 30;
+        if (score1 >= 30) {
             System.out.println("赤点回避！");
         } else {
             System.out.println("赤点だよ...");
+        }
+
+        //赤点回避（複雑な条件分岐）
+        int score2 = 31;
+        if (score2 == 100) {
+            System.out.println("100点おめでとう!");
+        } else {
+            if (score2 >= 90) {
+                System.out.println("おしい！");
+            } else if (score2 < 30) {
+                System.out.println("赤点");
+            }
         }
     }
 }
