@@ -26,17 +26,8 @@ public class Calculation {
         int sum = 0;
 
         for (int i = 1; i <= 10; i++) {
-            sum += i; 
+            sum += i;
         }
         // System.out.println("1から10までの合計: " + sum);
-
-        //if文を使った計算（条件分岐）
-        int num = 2;
-
-        if (num > 0) {
-            // System.out.println(num + "は正の数です");
-        } else {
-            // System.out.println(num + "は負の数です");
-        }
     }
 }
