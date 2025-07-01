@@ -39,11 +39,26 @@ public class ifPractice {
         }
 
         //論理演算子
-        int number = 30;
+        int number = 100;
         if (number >= 0 && number <= 100) {
             System.out.println("範囲内です");
         } else {
             System.out.println("範囲外です");
+        }
+
+        //論理演算子と複雑な条件分岐
+        int value = 101;
+        if (value >= 0 && value <= 100) {
+            System.out.println("範囲内です");
+        } else {
+            if (value < 0) {
+                System.out.println("負の数です！");
+            } else  {
+                System.out.println("正の数だけど...");
+                if (value > 100) {
+                    System.out.println("100以内に収めてね");
+                }
+            }
         }
     }
 }
