@@ -29,22 +29,5 @@ public class Calculation {
             sum += i;
         }
         // System.out.println("1から10までの合計: " + sum);
-
-        //if文を使った計算（条件分岐）
-        int num = 2;
-
-        if (num > 0) {
-            // System.out.println(num + "は正の数です");
-        } else {
-            // System.out.println(num + "は負の数です");
-        }
-
-        if (num == 1) {
-            System.out.println("one");
-        } else if (num == 2) {
-            System.out.println("two");
-        } else if (num == 3) {
-            System.out.println("three");
-        }
     }
 }
