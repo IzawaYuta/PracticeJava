@@ -23,5 +23,11 @@ public class App {
         System.out.println(10 % 3); //あまり
         System.out.println(10 + 2 * 3);
         System.out.println((10 + 2) * 3);
+
+        //変数
+        int price = 150;
+        System.out.println(price * 120);
+        System.out.println(price * 130);
+        System.out.println(price * 140);
     }
 }
