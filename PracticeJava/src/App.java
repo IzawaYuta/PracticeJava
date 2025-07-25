@@ -32,8 +32,16 @@ public class App {
 
         //変数の再代入
         price = 200;
+        // price = price + 50;
+        // price += 50;
         System.out.println(price * 120);
         System.out.println(price * 130);
         System.out.println(price * 140);
+
+        //定数
+        final double tax = 0.08;
+        System.out.println(100 + 100 * tax);
+        System.out.println(200 + 200 * tax);
+        System.out.println(300 + 300 * tax);
     }
 }
