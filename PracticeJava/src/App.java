@@ -29,5 +29,11 @@ public class App {
         System.out.println(price * 120);
         System.out.println(price * 130);
         System.out.println(price * 140);
+
+        //変数の再代入
+        price = 200;
+        System.out.println(price * 120);
+        System.out.println(price * 130);
+        System.out.println(price * 140);
     }
 }
