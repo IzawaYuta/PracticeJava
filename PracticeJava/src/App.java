@@ -47,6 +47,15 @@ public class App {
         //文字列
         System.out.println("Hello, Java!");
         System.out.println("Hello, \"Java\"!"); //""を文字として認識させる
-        System.out.println("Hello, \nJava!");
+        System.out.println("Hello, \nJava!"); //改行
+
+        //文字列と変数の組み合わせ
+        String name1 = "Taro";
+        String name2 = "Hanako";
+        System.out.println("Hello, " + name1);
+        System.out.println(String.format("Hello. %s, %s", name1, name2));
+
+        //変数と定数のルール
+        System.out.println();
     }
 }
