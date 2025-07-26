@@ -57,5 +57,6 @@ public class App {
 
         //変数と定数のルール
         System.out.println();
+        System.out.println();
     }
 }
