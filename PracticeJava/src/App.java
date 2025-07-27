@@ -78,5 +78,17 @@ public class App {
         scores[1] = 100; //値の再代入
         System.out.println(scores[1]);
         System.out.println(scores.length); //配列の要素数を取得
+
+        //より複雑な配列
+        //以下二つの配列は、点数の配列だから１つにまとめたい
+        int[] firstYearScores = {60, 70, 80};
+        int[] secondYearScores = {30, 40, 50};
+        //１つにまとめる書き方
+        int[][] firstAndSecondScores = {
+            {60, 70, 80}, //firstAndSecondScores[0]
+            {30, 40, 50} //firstAndSecondScores[1]
+        };
+        //取り出す
+        System.out.println(firstAndSecondScores[1][2]);
     }
 }
