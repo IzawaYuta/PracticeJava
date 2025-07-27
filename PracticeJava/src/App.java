@@ -25,6 +25,8 @@ public class App {
         System.out.println((10 + 2) * 3);
 
         //変数
+        //変数のルール
+        //最初にintで宣言したら他の型をあとから再代入できない
         int price = 150;
         System.out.println(price * 120);
         System.out.println(price * 130);
@@ -39,10 +41,13 @@ public class App {
         System.out.println(price * 140);
 
         //定数
-        final double tax = 0.08; //消費税
-        System.out.println(100 + 100 * tax); //金額 + 消費税
-        System.out.println(200 + 200 * tax);
-        System.out.println(300 + 300 * tax);
+        //定数の命名は全て大文字
+        //単語の間は_を
+        //例：MY_NAME
+        final double TAX = 0.08; //消費税
+        System.out.println(100 + 100 * TAX); //金額 + 消費税
+        System.out.println(200 + 200 * TAX);
+        System.out.println(300 + 300 * TAX);
 
         //文字列
         System.out.println("Hello, Java!");
@@ -55,8 +60,35 @@ public class App {
         System.out.println("Hello, " + name1);
         System.out.println(String.format("Hello. %s, %s", name1, name2));
 
-        //変数と定数のルール
-        System.out.println();
-        System.out.println();
+        //配列
+        //書き方１
+        // int[] scores;
+        // scores = new int[3];
+        //書き方２
+        // int[] scores = new int[3];
+        // scores[0] = 60;
+        // scores[1] = 70;
+        // scores[2] = 80;
+        //簡単な書き方
+        int[] scores = {60, 70, 80};
+        System.out.println(scores[0]); //配列の要素を取り出す
+        System.out.println(scores[1]);
+        System.out.println(scores[2]);
+
+        scores[1] = 100; //値の再代入
+        System.out.println(scores[1]);
+        System.out.println(scores.length); //配列の要素数を取得
+
+        //より複雑な配列
+        //以下二つの配列は、点数の配列だから１つにまとめたい
+        int[] firstYearScores = {60, 70, 80};
+        int[] secondYearScores = {30, 40, 50};
+        //１つにまとめる書き方
+        int[][] firstAndSecondScores = {
+            {60, 70, 80}, //firstAndSecondScores[0]
+            {30, 40, 50} //firstAndSecondScores[1]
+        };
+        //取り出す
+        System.out.println(firstAndSecondScores[1][2]);
     }
 }
