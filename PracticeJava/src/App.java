@@ -25,6 +25,8 @@ public class App {
         System.out.println((10 + 2) * 3);
 
         //変数
+        //変数のルール
+        //最初にintで宣言したら他の型をあとから再代入できない
         int price = 150;
         System.out.println(price * 120);
         System.out.println(price * 130);
@@ -39,10 +41,13 @@ public class App {
         System.out.println(price * 140);
 
         //定数
-        final double tax = 0.08; //消費税
-        System.out.println(100 + 100 * tax); //金額 + 消費税
-        System.out.println(200 + 200 * tax);
-        System.out.println(300 + 300 * tax);
+        //定数の命名は全て大文字
+        //単語の間は_を
+        //例：MY_NAME
+        final double TAX = 0.08; //消費税
+        System.out.println(100 + 100 * TAX); //金額 + 消費税
+        System.out.println(200 + 200 * TAX);
+        System.out.println(300 + 300 * TAX);
 
         //文字列
         System.out.println("Hello, Java!");
@@ -54,9 +59,5 @@ public class App {
         String name2 = "Hanako";
         System.out.println("Hello, " + name1);
         System.out.println(String.format("Hello. %s, %s", name1, name2));
-
-        //変数と定数のルール
-        System.out.println();
-        System.out.println();
     }
 }
