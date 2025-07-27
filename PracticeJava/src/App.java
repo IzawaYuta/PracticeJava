@@ -75,7 +75,8 @@ public class App {
         System.out.println(scores[1]);
         System.out.println(scores[2]);
 
-        scores[1] = 100;
+        scores[1] = 100; //値の再代入
         System.out.println(scores[1]);
+        System.out.println(scores.length); //配列の要素数を取得
     }
 }
