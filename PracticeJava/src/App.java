@@ -89,6 +89,7 @@ public class App {
             {30, 40, 50} //firstAndSecondScores[1]
         };
         //取り出す
+        //firstAndSecondScores[1]の[2]
         System.out.println(firstAndSecondScores[1][2]);
     }
 }
