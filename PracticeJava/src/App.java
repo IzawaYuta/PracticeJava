@@ -59,5 +59,23 @@ public class App {
         String name2 = "Hanako";
         System.out.println("Hello, " + name1);
         System.out.println(String.format("Hello. %s, %s", name1, name2));
+
+        //配列
+        //書き方１
+        // int[] scores;
+        // scores = new int[3];
+        //書き方２
+        // int[] scores = new int[3];
+        // scores[0] = 60;
+        // scores[1] = 70;
+        // scores[2] = 80;
+        //簡単な書き方
+        int[] scores = {60, 70, 80};
+        System.out.println(scores[0]); //配列の要素を取り出す
+        System.out.println(scores[1]);
+        System.out.println(scores[2]);
+
+        scores[1] = 100;
+        System.out.println(scores[1]);
     }
 }
