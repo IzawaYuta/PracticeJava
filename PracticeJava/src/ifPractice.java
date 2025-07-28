@@ -6,8 +6,10 @@ public class ifPractice {
 
         if (score >= 90) {
             System.out.println("A判定");
+        } else if (score >= 70) {
+            System.out.println("B判定");
         } else {
-            System.out.println("Not A");
+            System.out.println("C判定");
         }
     }
 }
