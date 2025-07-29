@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ifPractice {
+public class PracticeJava_if {
     public static void main(String[] args) {
         // int score = new Scanner(System.in) .nextInt();
 
