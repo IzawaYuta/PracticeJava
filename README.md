@@ -30,8 +30,8 @@ https://cad-kenkyujo.com/vscode-java/
 [変数と定数のルール]
 (https://github.com/IzawaYuta/PracticeJava/pull/20)
 
-[配列]
-(https://github.com/IzawaYuta/PracticeJava/pull/21)
+(配列)
+[https://github.com/IzawaYuta/PracticeJava/pull/21]
 
 [if]
 (https://github.com/IzawaYuta/PracticeJava/pull/23)
