@@ -5,18 +5,17 @@ public class PracticeJava_Switch {
         String weather = new Scanner(System.in).next();
         switch (weather) {
             case "晴れ":
-            System.out.println("Tシャツで出かけよう☀️");
-            break;
+                System.out.println("Tシャツで出かけよう☀️");
+                break;
             case "雨":
-            System.out.println("傘を忘れずに☂️");
-            break;
+                System.out.println("傘を忘れずに☂️");
+                break;
             case "雪":
-            System.out.println("暖かいコートを着よう⛄️");
-            break;
+                System.out.println("暖かいコートを着よう⛄️");
+                break;
             default:
-            System.out.println("天気を取得できません");
-            break;
-            // System.out.println("天気を取得できません");
+                System.out.println("天気を取得できません");
+                break;
         }
     }
 }
