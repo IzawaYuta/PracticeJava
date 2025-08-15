@@ -6,8 +6,7 @@ Java、VSCode導入に役立ったサイト
 https://cad-kenkyujo.com/vscode-java/
 
 # 学習概要
-[数字を表示してみる]
-(https://github.com/IzawaYuta/PracticeJava/pull/13)
+[数字を表示してみる](https://github.com/IzawaYuta/PracticeJava/pull/13)
 
 [色々な数値を表示してみる]
 (https://github.com/IzawaYuta/PracticeJava/pull/14)
